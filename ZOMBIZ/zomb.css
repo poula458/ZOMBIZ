@@ -1,0 +1,131 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.blog-img#img1 img {
+    height: 100%;
+}
+
+.blog-img {
+    position: relative;
+    width: 100%;
+}
+
+.overlay {
+    width: 100%;
+    background-color: #892be232;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    transition: ease 1s;
+    text-align: center;
+}
+.blog-img:hover .overlay{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #00208065;
+}
+.project img{
+    width: 100%;
+}
+.overlay a{
+    color: white;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    font-size: 40px;
+}
+nav{
+    background-color: #0700ffa6;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;    
+    font-size: 22px;
+
+}
+
+.back-up{
+    width: 30px;
+    height: 30px;
+    background-color: #0700ffa6;
+    position: fixed;
+    z-index: 1;
+    bottom: 10%;
+    right: 3%;
+    padding: 2px;
+    transition: 1s;
+    border-radius: 10%;
+    cursor: pointer;
+    display: none;
+}
+.back-up:hover{
+    border-radius: 50%;
+}
+.back-up img{
+    width: 25px;
+    height: 25px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+
+}
+.z-btn{
+    width: 15%;
+    height: 50px;
+    background-color:#0700ffa6;
+    color: white;
+    transition: 1s;
+
+}
+.z-btn:hover{
+    background-color: transparent;
+    color: #0700ffa6;
+    border: 15px #0700ffa6;
+}
+header{
+    background-image: url(/imgs/banner/banner1.jpg);
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+.project{
+    margin-top: 30px;
+}
+.my-squer{
+    width: 100%;
+    height: 30px;
+    background-color: #23b486;
+}
+.we-do{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.we-do div{
+    border: 10px;
+    box-shadow: 10px #000;
+    width: 30%;
+}
+.we-do div:hover{
+    box-shadow: 15px;
+}
+.we-do div img{
+    font-size: 30px;
+}
+.we-do h2{
+    text-align: center;
+    display: block;
+}
